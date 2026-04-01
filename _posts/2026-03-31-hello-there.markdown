@@ -4,8 +4,6 @@ title:  "Hello There!"
 date:   2026-03-31 20:23:54 -0500
 categories: felix
 ---
-This site is for educational demo.
-
 
 #### Who's this guy?
 
