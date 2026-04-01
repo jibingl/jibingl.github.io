@@ -6,7 +6,6 @@ categories: felix
 ---
 This site is for educational demo.
 
-Jekyll requires blog post files to be named according to the following format:
 
 #### Who's this guy?
 
