@@ -9,9 +9,10 @@ categories: felix
 
 If you get below error, you are in the right place to fix it.
 
-<img width="222" height="222" alt="nsa_instructor_profile" src="/assets/images/error-continue_without_virtualized_intel_vt-x_rpt.jpg" />
+<img width="222" alt="nested_virt_error" src="/assets/images/error-continue_without_virtualized_intel_vt-x_rpt.jpg" />
 
 ### Step 1: Disable Hyper-V Features
+
 1. Open the Start menu, type **Turn Windows features on or off**, and press **Enter**.
 2. Uncheck the following boxes if they are enabled:
    * Hyper-V
@@ -19,7 +20,9 @@ If you get below error, you are in the right place to fix it.
    * Windows Hypervisor Platform
 3. Click **OK** and restart your computer.
 
+
 ### Step 2: Run the Complete Hypervisor Wipe Command
+
 Even if features are unchecked in Windows Features, Windows 11 Pro can keep a silent hypervisor state running.
 
 1. Right-click the **Start Button** and select **Terminal (Admin)** or **Command Prompt (Admin)**.
@@ -29,7 +32,9 @@ Even if features are unchecked in Windows Features, Windows 11 Pro can keep a si
    ```
 3. Press **Enter**. You should see "The operation completed successfully."
 
+
 ### Step 3: Perform a Full Cold Reboot
+
 A normal "Restart" in Windows 11 often uses "Fast Startup," which hibernates the kernel and preserves the hypervisor state.
 
 1. Close all open applications.
