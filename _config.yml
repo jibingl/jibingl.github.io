@@ -23,9 +23,9 @@ email: felix.liang@felixliang.org
 description: >- # this means to ignore newlines until "baseurl:"
   All right reserved.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://profile.felixliang.org # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username: ""
+url: https://felixliang.org # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: ""
+github_username: "jibingl"
 
 # Build settings
 theme: minima
